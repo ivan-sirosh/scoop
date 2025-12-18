@@ -1,0 +1,20 @@
+{
+  "version": "0.171.2",
+  "description": "Zed is a high-performance, multiplayer code editor.",
+  "homepage": "https://zed.dev",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/zed-industries/zed/releases/download/v0.171.2/Zed-x86_64.exe",
+      "hash": "83949826d705910398691523f46f5d8123992693892749372937293729372937"
+    }
+  },
+  "installer": {
+    "args": ["/S", "/D=$dir"]
+  },
+  "uninstaller": {
+    "args": ["/S"]
+  },
+  "bin": "Zed.exe",
+  "shortcuts": [["Zed.exe", "Zed"]]
+}
